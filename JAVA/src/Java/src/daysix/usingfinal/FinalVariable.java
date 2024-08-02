@@ -27,7 +27,7 @@ public class FinalVariable {
 	// Declare a static block to initialize the final static variable.
 	static {
 		Y = 20;
-		Z = 100; // Once intialized can't be reassigned
+		Z  = 100; // Once intialized can't be reassigned
 		System.out.println("Value of Y: " + Y);
 	}
 
